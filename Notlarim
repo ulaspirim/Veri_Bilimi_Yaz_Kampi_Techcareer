@@ -1,0 +1,64 @@
+yaş = int(input("Yaşınızı girin: "))
+boy = float(input("Boyunuzu girin: "))
+
+metin = "Python"
+print(metin[0])      # ilk karakter → 'P'
+print(metin[-1])     # son karakter → 'n'
+print(len(metin))    # uzunluk → 6
+print(metin[::-1])   # ters çevirme → 'nohtyP'
+
+ortalama = 55
+if ortalama > 50:
+    print("Geçti")
+else:
+    print("Kaldı")
+
+
+print(len(metin))   # 6
+print(metin[::-1])   # 'nohtyP'
+metin = "Python"
+print(metin[-1])  # 'n'
+
+
+a = True
+b = False
+print(a and b)  # False
+print(a or b)   # True
+print(not a)    # False
+
+
+a = "Hello, World!"
+print(a.split(","))      # returns ['Hello', ' World!']
+
+
+Remove any duplicates from a List:
+mylist = ["a", "b", "a", "c", "c"]
+mylist = list(dict.fromkeys(mylist))
+print(mylist)
+
+
+
+To specify a string as an f-string, simply put an f in front of the string literal, and add curly brackets {} as placeholders for variables and other operations.
+Example
+Create an f-string:
+age = 36
+txt = f"My name is John, I am {age}"
+print(txt)
+
+
+
+Example
+The escape character allows you to use double quotes when you normally would not be allowed:
+txt = "We are the so-called \"Vikings\" from the north."
+
+\'	Single Quote	
+\\	Backslash	
+\n	New Line	
+\r	Carriage Return	
+\t	Tab	
+\b	Backspace	
+\f	Form Feed	
+\ooo	Octal value	
+\xhh	Hex value
+
+'''
